@@ -12,12 +12,19 @@ The library targets modern charge points and central systems, running OCPP versi
 Given that SOAP will no longer be supported in future versions of OCPP, only OCPP-J is supported in this library.
 There are currently no plans of supporting OCPP-S.
 
+> [!NOTE]  
+> This library is a fork of the original [lorenzodonini/ocpp-go](https://github.com/lorenzodonini/ocpp-go) repository.
+> Contains numerous not-yet-accepted feature requests merged:
+> - OCPP 2.1 [#371](https://github.com/lorenzodonini/ocpp-go/pull/371)
+> - Improved error handling [#373](https://github.com/lorenzodonini/ocpp-go/pull/373)
+> - Websocket compression [#370](https://github.com/lorenzodonini/ocpp-go/pull/370)
+
 ## Installation
 
 Go version 1.13+ is required.
 
 ```sh
-go get github.com/lorenzodonini/ocpp-go
+go get github.com/leslatech/ocpp-go
 ```
 
 You will also need to fetch some dependencies:
